@@ -1,0 +1,12 @@
+Twitter parser
+
+On the input: login (or id) of the user.
+On the out: 
+	1. Subscribe list
+	2. Folowed list
+	3. Profile info
+		3.1 Count of twitt  messages
+		3.2 Count of photo and video
+	additional:
+		a1: Date of creating an account
+		a2: Photo (make dir with the photo)
