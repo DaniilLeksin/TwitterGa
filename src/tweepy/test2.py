@@ -140,7 +140,7 @@ def get_friends_followers_ids(twitter_api, screen_name=None, user_id=None,
  
         #9.16 9.17 9.19 9.22
  
-twitter_api=oauth_login()
+twitter_api = oauth_login()
 response = make_twitter_request(twitter_api.users.lookup, screen_name="DanilLeksin")
 print json.dumps(response, indent=1)
 print twitter_api
